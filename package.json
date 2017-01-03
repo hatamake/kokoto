@@ -1,0 +1,24 @@
+{
+  "name": "kokoto",
+  "version": "0.1.0",
+  "description": "A brand-new cooperation platform: Kokoto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hatamake/kokoto.git"
+  },
+  "author": "cumul <gg6123@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "kokoto-httpd": "git+https://github.com/hatamake/kokoto-httpd.git",
+    "kokoto-ui": "git+https://github.com/hatamake/kokoto-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hatamake/kokoto/issues"
+  },
+  "homepage": "https://github.com/hatamake/kokoto#readme"
+}
