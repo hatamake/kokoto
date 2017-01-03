@@ -67,5 +67,5 @@ new Promise(function(resolve, reject) {
 }).then(function() {
 	console.log('> Ready!');
 }).catch(function(error) {
-	console.log(error);
+	console.log(error.stack);
 });

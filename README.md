@@ -4,7 +4,7 @@
 
 ## Features
 
-Check out our [Introduction video]() and [paper]()
+Check out our [Introduction video]() and [paper]().
 
 - Beautiful theme 
 - Tag classification & search
