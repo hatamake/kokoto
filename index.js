@@ -46,12 +46,11 @@ new Promise(function(resolve, reject) {
 
 	const Server = require('kokoto-httpd');
 
-	return Server({
-		url: '/api',
-		secret: '71_q_eZj\'L00|D*])9|To+1_(-oCuc',
-		db: 'mongodb://kotostudio:zhxhtmxbeldh@ds145138.mlab.com:45138/kokoto',
-		apps: [uiApp]
-	});
+	const config = require('./config.js');
+	config.url = '/api',
+	config.apps = [uiApp];
+
+	return Server(config);
 }).then(function(server) {
 	console.log('> Launching server...');
 
