@@ -14,6 +14,7 @@
   "author": "cumul <gg6123@naver.com>",
   "license": "MIT",
   "dependencies": {
+    "async": "^2.1.4",
     "kokoto-httpd": "git+https://github.com/hatamake/kokoto-httpd.git",
     "kokoto-ui": "git+https://github.com/hatamake/kokoto-ui.git"
   },

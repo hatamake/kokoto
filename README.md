@@ -1,6 +1,6 @@
 # kokoto
 
-*Kokoto* is a brand-new platform for efficient and flexible cooperation.
+*Kokoto* is a brand-new platform for efficient and flexible collaboration.
 
 ## Features
 
@@ -35,6 +35,7 @@ Configuration is loaded from the exported object of `config.js`. Following optio
 - config.db: MongoDB connection URI used for connecting to the database (Default: `'mongodb://127.0.0.1/kokoto'`)
 - config.session: A cookie field name for storing session ID (Default: `'session'`)
 - options.pagination: A count of items displayed in each page (Default: `20`)
+- options.listen: An argument *or* an array of arguments passed to [http.Server.listen()](https://nodejs.org/api/http.html#http_server_listen_path_callback). (Default: `8080`)
 
 ## License
 
