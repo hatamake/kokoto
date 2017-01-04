@@ -48,5 +48,21 @@ See https://github.com/hatamake/kokoto-httpd/blob/master/LICENSE
 ===============================================================================
 hatamake/kokoto-ui                        https://github.com/hatamake/kokoto-ui
   and its dependencies:
+mzabriskie/axios                            https://github.com/mzabriskie/axios
+babel/babel                                      https://github.com/babel/babel
+babel/babel-loader                        https://github.com/babel/babel-loader
+webpack/css-loader                        https://github.com/webpack/css-loader
+webpack/extract-text-webpack-plugin
+                         https://github.com/webpack/extract-text-webpack-plugin
+e-/Hangul.js                                    https://github.com/e-/Hangul.js
+chjj/marked                                      https://github.com/chjj/marked
+moment/moment                                  https://github.com/moment/moment
+jinder/path                                      https://github.com/jinder/path
+facebook/react                                https://github.com/facebook/react
+kentor/react-click-outside        https://github.com/kentor/react-click-outside
+casesandberg/react-color            https://github.com/casesandberg/react-color
+ReactTraining/react-router        https://github.com/ReactTraining/react-router
+KyleAMathews/react-spinkit        https://github.com/KyleAMathews/react-spinkit
+webpack/webpack                              https://github.com/webpack/webpack
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 See https://github.com/hatamake/kokoto-ui/blob/master/LICENSE
