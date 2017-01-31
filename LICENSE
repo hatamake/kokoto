@@ -1,7 +1,4 @@
-===============================================================================
-hatamake/kokoto                              https://github.com/hatamake/kokoto
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-(The MIT License)
+MIT License
 
 Copyright (c) 2017 cumul <gg6123@naver.com>
 Copyright (c) 2017 raon0211 <raon0211@outlook.com>
@@ -26,43 +23,3 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
-
-
-===============================================================================
-hatamake/kokoto-httpd                  https://github.com/hatamake/kokoto-httpd
-  and its dependencies:
-caolan/async                                    https://github.com/caolan/async
-expressjs/express                          https://github.com/expressjs/express
-expressjs/body-parser                  https://github.com/expressjs/body-parser
-expressjs/session                          https://github.com/expressjs/session
-jdesboeufs/connect-mongo            https://github.com/jdesboeufs/connect-mongo
-felixge/node-formidable              https://github.com/felixge/node-formidable
-unclechu/node-deep-extend          https://github.com/unclechu/node-deep-extend
-oliver-moran/jimp                          https://github.com/oliver-moran/jimp
-lodash/lodash                                  https://github.com/lodash/lodash
-Automattic/mongoose                      https://github.com/Automattic/mongoose
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-See https://github.com/hatamake/kokoto-httpd/blob/master/LICENSE
-
-
-===============================================================================
-hatamake/kokoto-ui                        https://github.com/hatamake/kokoto-ui
-  and its dependencies:
-mzabriskie/axios                            https://github.com/mzabriskie/axios
-babel/babel                                      https://github.com/babel/babel
-babel/babel-loader                        https://github.com/babel/babel-loader
-webpack/css-loader                        https://github.com/webpack/css-loader
-webpack/extract-text-webpack-plugin
-                         https://github.com/webpack/extract-text-webpack-plugin
-e-/Hangul.js                                    https://github.com/e-/Hangul.js
-chjj/marked                                      https://github.com/chjj/marked
-moment/moment                                  https://github.com/moment/moment
-jinder/path                                      https://github.com/jinder/path
-facebook/react                                https://github.com/facebook/react
-kentor/react-click-outside        https://github.com/kentor/react-click-outside
-casesandberg/react-color            https://github.com/casesandberg/react-color
-ReactTraining/react-router        https://github.com/ReactTraining/react-router
-KyleAMathews/react-spinkit        https://github.com/KyleAMathews/react-spinkit
-webpack/webpack                              https://github.com/webpack/webpack
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-See https://github.com/hatamake/kokoto-ui/blob/master/LICENSE

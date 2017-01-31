@@ -1,4 +1,5 @@
 node_modules/
+
 .webpack_build_cache/
-npm-debug.log
+
 config.js

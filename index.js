@@ -21,7 +21,7 @@ async.waterfall([
 	function(uiPath, callback) {
 		console.log('> Creating UI apps...');
 
-		callback(null, function(config, express, model) {
+		callback(null, function(express, model, config) {
 			function sendFileCallback(res, error) {
 				if (error) {
 					res.status(error.statusCode || 500).end();
@@ -49,14 +49,10 @@ async.waterfall([
 	function(uiApp, callback) {
 		console.log('> Creating server instance...');
 
-		callback(null, Httpd({
-			url: '/api',
-			secret: config.secret,
-			db: config.db,
-			session: config.session,
-			apps: [uiApp],
-			pagination: config.pagination
-		}));
+		config.url = '/api';
+		config.plugins = [uiApp];
+
+		callback(null, new Httpd(config));
 	},
 	function(httpd, callback) {
 		console.log('> Launching server...');
