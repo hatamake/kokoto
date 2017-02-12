@@ -28,7 +28,7 @@ async.waterfall([
 				}
 			}
 
-			express.get(/^\/(css|fonts|js)\/(.+?)$/, function(req, res) {
+			express.get(/^\/(css|fonts|js|images)\/(.+?)$/, function(req, res) {
 				const type = req.params[0];
 				const filepath = req.params[1];
 

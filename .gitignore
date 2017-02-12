@@ -1,5 +1,4 @@
+.vscode/
 node_modules/
-
 .webpack_build_cache/
-
 config.js

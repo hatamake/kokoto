@@ -15,7 +15,7 @@
   "license": "MIT",
   "dependencies": {
     "async": "^2.1.4",
-    "kokoto-httpd": "git+https://github.com/hatamake/kokoto-httpd.git",
+    "kokoto-httpd": "git+https://github.com/hatamake/kokoto-httpd.git#v0.3.0",
     "kokoto-ui": "git+https://github.com/hatamake/kokoto-ui.git"
   },
   "bugs": {
