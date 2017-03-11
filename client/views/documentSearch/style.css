@@ -1,0 +1,81 @@
+.searchForm {
+    display: inline-block;
+    position: relative;
+    line-height: 0;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    transition: background .2s, border .2s;
+}
+
+.icon {
+    position: absolute;
+    color: #666;
+    top: 12px;
+    left: 12px;
+    font-size: 16px;
+    transition: color .2s;
+}
+
+.input {
+    margin-left: 45px;
+    padding: 12px 0;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    text-align: left;
+    width: 500px;
+    background: transparent;
+    color: #666;
+    transition: color .2s;
+}
+
+.input::-webkit-input-placeholder {
+    color: #666;
+    transition: color .2s;
+}
+
+.input:-moz-placeholder, header .search-wrap input::-moz-placeholder {
+   color: #666;
+   opacity: 1;
+   transition: color .2s;
+}
+
+.input:-ms-input-placeholder {
+   color: #666;
+   transition: color .2s;
+}
+
+.selectedForm {
+    composes: searchForm;
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #ccc;
+    transition: background .2s, border .2s;
+}
+
+.selectedForm .search-icon {
+    color: #000;
+    transition: color .2s;
+}
+
+.selectedForm .input::-webkit-input-placeholder {
+    color: #000;
+    transition: color .2s;
+}
+
+.selectedForm .input:-moz-placeholder {
+   color: #000;
+   transition: color .2s;
+   opacity: 1;
+}
+
+.selectedForm .input::-moz-placeholder {
+   color: #000;
+   transition: color .2s;
+   opacity: 1;
+}
+
+.selectedForm .input:-ms-input-placeholder {
+   color: #000;
+   transition: color .2s;
+}

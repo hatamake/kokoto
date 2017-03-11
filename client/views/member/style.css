@@ -1,0 +1,106 @@
+.flex {
+    width: 100%;
+    height: 100%;
+	display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: #f0f0f0;
+}
+
+.wrap {
+    width: 650px;
+	display: flex;
+}
+
+.left {
+    padding: 40px 30px;
+    background: #519cea;
+    flex-shrink: 0;
+    flex-basis: 300px;
+    position: relative;
+}
+
+.featured {
+    margin: 0;
+    font-weight: 400;
+    font-size: 28px;
+    color: #fff;
+}
+
+.leftFooter {
+    position: absolute;
+    bottom: 40px;
+    color: #fff;
+}
+
+.link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.link b {
+    text-decoration: underline;
+}
+
+.right {
+    padding: 40px 30px; 
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 290px;
+    background: #fff;
+}
+
+.title {
+    color: #2382e5;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.error {
+    margin-bottom: 15px;
+    padding: 10px;
+    color: #ef564f;
+    background: #fef1f1;
+    border: 1px solid #ef564f;
+    border-radius: 5px;
+}
+
+.input {
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    outline: none;
+}
+
+.username {
+    composes: input;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.password {
+    composes: input;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.submitBase {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.submit {
+    composes: button from "commonCss/button.css";
+    composes: submitBase;
+}
+
+.submitting {
+    composes: submittingBtn from 'commonCss/button.css';
+    composes: submitBase;
+}

@@ -1,0 +1,33 @@
+.wrap {
+    composes: wrap from 'commonCss/grid.css';
+}
+
+.left {
+    composes: small from 'commonCss/grid.css';
+    border-right: 1px solid #ddd;
+}
+
+.right {
+    composes: big from 'commonCss/grid.css';
+}
+
+.title {
+    composes: title from 'commonCss/grid.css';
+}
+
+.titleText {
+    composes: titleText from 'commonCss/grid.css';
+}
+
+.buttons {
+    composes: buttons from 'commonCss/grid.css';
+}
+
+.button {
+    composes: button from 'commonCss/grid.css';
+}
+
+.documents {
+    overflow-y: auto;
+    height: calc(100% - 50px);
+}

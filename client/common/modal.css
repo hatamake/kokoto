@@ -1,0 +1,38 @@
+.modalWrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .3);
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    z-index: 99999999;
+}
+
+.modal {
+    width: 330px;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-top: 1px solid #2382e5;
+}
+
+.title {
+    margin-bottom: 15px;
+    padding: 5px 0;
+    font-size: 26px;
+    font-weight: 400;
+    color: #2382e5;
+    text-align: center;
+}
+
+.label {
+    display: block;
+    font-size: 14px;
+    margin: 10px 0 5px 0;
+    color: #666;
+}

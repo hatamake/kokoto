@@ -1,0 +1,46 @@
+.row {
+    margin: 0 20px;
+    padding-left: 26px;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background .1s;
+    font-size: 18px;
+}
+
+.title {
+    color: #000;
+}
+
+.count {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    line-height: 40px;
+    font-size: .8em;
+    color: #666;
+    font-weight: 400;
+}
+
+.activeRow {
+    composes: row;
+    font-weight: bold;
+}
+
+.activeRow .title {
+    color: inherit;
+}
+
+.square {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+}

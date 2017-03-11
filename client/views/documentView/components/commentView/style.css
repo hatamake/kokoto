@@ -1,0 +1,148 @@
+.wrap {
+    position: absolute;
+    width: 100%;
+}
+
+.count {
+    margin-left: 10px;
+    width: 30px;
+    height: 25px;
+    line-height: 25px;
+    display: inline-block;
+    text-align: center;
+    background: #888;
+    color: #fff;
+    cursor: pointer;
+    transition: background .1s;
+}
+
+.count:hover {
+    background: #3f92e8;
+}
+
+.count::after {
+    margin-bottom: -6px;
+    content: ' ';
+    display: block;
+    border: 10px solid transparent;
+    border-left: 10px solid #999;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    transition: border .1s;
+}
+
+.count:hover::after {
+    border-left: 10px solid #519cea;
+}
+
+.modalWrap {
+    composes: wrap;
+    composes: wrap from 'commonCss/modalMini.css';
+    font-size: 14px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.title {
+    composes: title from 'commonCss/modalMini.css';
+    position: relative;
+    margin: 0 15px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    color: #666;
+    text-decoration: none;
+}
+
+.comments {
+    max-height: 450px;
+    overflow-y: auto;
+}
+
+.commentGroup {
+    position: relative;
+    padding: 15px;
+    transition: background .1s;
+    cursor: pointer;
+}
+
+.commentGroup::after {
+    position: absolute;
+    bottom: 0;
+    content: ' ';
+    border-bottom: 1px solid #eee;
+    display: block;
+    width: calc(100% - 30px);
+}
+
+.commentGroup:hover {
+    background: #fafafa;
+}
+
+.commentContent {
+    margin-bottom: 5px;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.comment {
+    margin: 10px 0;
+    position: relative;
+    transition: background .1s;
+}
+
+.comment:last-child {
+    margin-bottom: 0;
+}
+
+.more {
+    display: inline-block;
+    color: #666;
+}
+
+.more:hover {
+    text-decoration: underline;
+}
+
+.meta {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.author {
+    display: inline-block;
+    max-width: 80px;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+}
+
+.small {
+    margin-left: 3px;
+    font-size: .8em;
+}
+
+.content {
+    margin-bottom: 3px;
+    line-height: 140%;
+}
+
+.buttons {
+    display: inline-block;
+}
+
+.button {
+    margin-right: 5px;
+    color: #666;
+    text-decoration: none;
+}
+
+.button:hover {
+    text-decoration: underline;
+}

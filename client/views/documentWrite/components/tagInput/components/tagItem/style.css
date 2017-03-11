@@ -1,0 +1,79 @@
+.wrap {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.tagItem {
+    position: relative;
+    margin-right: 7px;
+    padding: 0 25px 0 5px;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.title {
+    cursor: pointer;
+}
+
+.removeBtn {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    display: inline-block;
+    height: 35px;
+    width: 20px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.modalWrap {
+    composes: modalWrap from 'commonCss/modal.css';
+}
+
+.modalWrapHidden {
+    composes: modalWrap;
+    display: none;
+    color: #000;
+    z-index: 100;
+}
+
+.modal {
+    composes: modal from 'commonCss/modal.css';
+    position: relative;
+    line-height: initial;
+}
+
+.modalTitle {
+    composes: title from 'commonCss/modal.css';
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.label {
+    composes: label from 'commonCss/modal.css';
+}
+
+.input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button {
+    composes: button from 'commonCss/button.css';
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}

@@ -1,0 +1,33 @@
+.wrap {
+    padding: 15px;
+    background: #fff;
+}
+
+.title {
+    font-size: 14px;
+    height: 25px;
+    line-height: 20px;
+    padding-bottom: 5px;
+    color: #666;
+    border-bottom: 1px solid #ccc;
+}
+
+.buttonBase {
+    padding: 0;
+    width: 100%;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.button {
+    composes: button from './button.css';
+    composes: buttonBase;
+}
+
+.submitting {
+    composes: submittingBtn from './button.css';
+    composes: buttonBase;
+}

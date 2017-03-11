@@ -1,0 +1,14 @@
+.wrap {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.floatWrap {
+    composes: wrap;
+}
+
+.floatWrap::before, .floatWrap::after {
+    display: block;
+    content: ' ';
+    clear: both;
+}
